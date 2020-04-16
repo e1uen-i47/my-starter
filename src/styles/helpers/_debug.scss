@@ -1,0 +1,38 @@
+:root{
+    div{
+        outline: 0.03em solid rgba(255, 31, 225, 0.4);
+        background-color: rgba(255, 31, 225, 0.03);
+    }
+
+    h1,h2,h3,h4,h5,p,span{
+        outline: 0.03em solid rgba(0, 253, 253, 0.4);
+        background-color: rgba(0, 253, 253, 0.03);
+    }
+    ul,ol{
+        outline: 0.03em solid rgba(251, 255, 0, 0.4);
+        background-color: rgba(251, 255, 0, 0.03);
+        li{
+            outline: 0.03em solid rgba(251, 255, 0, 0.4);
+        background-color: rgba(251, 255, 0, 0.03);
+        }
+    }
+
+
+    a{
+        outline: 0.03em solid rgba(0, 255, 157, 0.4);
+        background-color: rgba(0, 255, 157, 0.03);
+    }
+
+    header{
+        outline: 0.03em solid rgba(0, 255, 55, 0.4);
+        background-color: rgba(0, 255, 55, 0.03);
+    }
+    main{
+        outline: 0.03em solid rgba(255, 0, 0, 0.4);
+        background-color: rgba(255, 0, 0, 0.03);
+    }
+    footer{
+        outline: 0.03em solid rgba(17, 0, 255, 0.4);
+        background-color: rgba(17, 0, 255, 0.03);
+    }
+}
